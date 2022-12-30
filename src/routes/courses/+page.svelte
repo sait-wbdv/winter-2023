@@ -1,5 +1,5 @@
 <script>
-  import { courses } from '$lib/courses'
+  import { courses } from '$lib/stores'
 </script>
 
 
@@ -9,7 +9,7 @@
 
 <h1>Courses</h1>
 <section class="course-list">
-	{#each courses as course}
+	{#each $courses as course}
 	{#if course.type === 'technical'}
 	<a href="courses/{course.code}">
 		<article class="course">

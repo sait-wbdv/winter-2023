@@ -1,6 +1,10 @@
 <script>
+  import { page }  from '$app/stores';
+  import { courses } from '$lib/stores';
+
   export let data;
-  const course = data.course;
+
+  const course = $courses.find((item) => item.code === $page.params.code);
 
 </script>
 <h1>{course.title}</h1>

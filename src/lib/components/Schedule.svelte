@@ -1,28 +1,8 @@
 <script>
-  import {lessons} from '$lib/helpers/importLessons'
-  import {schedule} from '$lib/schedule'
-  
-  let lessonsObj = {}
-  lessons.forEach((lesson) => {
-    lessonsObj[`${lesson.code}/${parseInt(lesson.day)}`] = lesson
-  })
-
-  const verboseSchedule = schedule.map((week) => {
-    return week.map((day) => {
-      let lessonId = '';
-      if(day.type === 'lesson') {
-        lessonId = `${day.code}/${day.day}`;
-        const {title, excerpt, status } = lessonsObj[lessonId];
-        const codeLabel = day.code.toUpperCase().replace('-', ' ');
-        return {...day, title, excerpt, status, codeLabel};
-      } else {
-        return day;
-      }
-    })
-  })
+  import { schedule } from '$lib/stores.js';
 </script>
 
-{#each verboseSchedule as week, index}
+{#each $schedule as week, index}
 <section class="week">
   <h2>Week {index + 1}</h2>
   {#each week as day}

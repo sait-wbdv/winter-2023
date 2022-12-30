@@ -1,5 +1,5 @@
 
-export const schedule = [
+export const scheduleByWeek = [
 	// Week 1
 	[
 		{
