@@ -6,7 +6,11 @@
   const lesson = $lessonsById[`${$page.params.code}/${$page.params.day}`];
 </script>
 <h1>{lesson.title}</h1>
-<!-- <time datetime={data.meta.date}>{data.meta.date}</time> -->
+
+{lesson.prev}
+{lesson.next}
+
+<time datetime={lesson.date}>{lesson.date}</time>
 {#if lesson.status === 'draft'}
 <p>This lesson has not been released.</p>
 {:else}

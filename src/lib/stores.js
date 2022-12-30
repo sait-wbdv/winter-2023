@@ -7,22 +7,34 @@ lessons.forEach((lesson) => {
   lessonsObj[`${lesson.code}/${parseInt(lesson.day)}`] = lesson
 });
 
-export const lessonsById = writable(lessonsObj);
+let prevLessonId = '';
 
 export const schedule = writable(scheduleByWeek.map((week) => {
   return week.map((day) => {
     let lessonId = '';
+
     if(day.type === 'lesson') {
-      lessonId = `${day.code}/${day.day}`;
-      const {title, excerpt, status } = lessonsObj[lessonId];
+			lessonId = `${day.code}/${day.day}`;
+
+			// Spice up the base lesson with schedule-specific 	info
+			lessonsObj[lessonId].date = day.date;
+			lessonsObj[lessonId].prev = prevLessonId;
+			lessonsObj[lessonId].next = ''; // populates on next iteration
+			if (prevLessonId) {
+				lessonsObj[prevLessonId].next = lessonId;
+			}
+			prevLessonId = lessonId;
+
+      const {title, excerpt, status, path, fileName } = lessonsObj[lessonId];
       const codeLabel = day.code.toUpperCase().replace('-', ' ');
-      return {...day, title, excerpt, status, codeLabel};
+      return {...day, title, excerpt, status, codeLabel, path, fileName};
     } else {
       return day;
     }
   })
 })
 );
+
 
 export const courses = writable([
 	{
@@ -80,3 +92,5 @@ export const courses = writable([
 		type: 'support'
 	},
 ]);
+
+export const lessonsById = writable(lessonsObj);
