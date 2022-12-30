@@ -1,0 +1,56 @@
+1. Daily Achievements (tickets)
+    - Goals:
+        - Develop fundamental skillz
+        - Become a better learner
+        - Stay active
+    - Proof of work
+        - share links
+            - fig links
+            - commit links
+            - cool videos/articles/challenges
+        - images
+            - screencaps
+            - vector exports
+            - profile pics
+        - repos
+            - hellos
+            - completed tutorials
+        - deployment
+            - live links
+        - documentation
+            - task boards
+                - Given when assignments are announced
+    - Reflection
+        - What do you want to accomplish today? Why?
+        - How does [lesson topic] help you achieve this goal?
+        - What was the biggest dev win you had since your last achievement submission?
+    - Quizzes?
+3. Assignments
+    - Portfolio/company/product website
+        - long form text
+        - heros
+        - nav menus
+        - footer
+        - cards
+        - galleries
+            - lists/list entries
+            - items/entries
+    - Mini-projects
+        - components
+        - content
+            - databases
+            - APIs
+        - documentation
+            - moodboards
+            - READMEs
+    - Razzle dazzle
+        - Above and beyond
+        - Good code craft
+4. Stage work
+    - Show and tell
+    - Mini-lectures
+    - Recorded screencasts
+    - Slides
+    - Pair-coding
+    - First responder
+    - How-to documentation
