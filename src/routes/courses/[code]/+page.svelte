@@ -2,8 +2,6 @@
   import { page }  from '$app/stores';
   import { courses } from '$lib/stores';
 
-  export let data;
-
   const course = $courses.find((item) => item.code === $page.params.code);
 
 </script>
