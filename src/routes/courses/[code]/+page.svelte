@@ -1,10 +1,13 @@
 <script>
-  import { page } from '$app/stores'
+  export let data;
+  const course = data.course;
+
 </script>
-
-<h1>{$page.params.code.toUpperCase().replace('-', ' ')}</h1>
-
-<h2><code>$page</code> data</h2>
-<pre>
-  {JSON.stringify($page, null, 2)}
-</pre>
+<h1>{course.title}</h1>
+<aside>
+  <nav class="secondary">
+    <ul>
+      <li><a href="{course.code}/assessments">Assessments</a></li>
+    </ul>
+  </nav>
+</aside>

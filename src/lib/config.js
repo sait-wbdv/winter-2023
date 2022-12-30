@@ -6,9 +6,9 @@
  **/ 
 
 export const siteTitle = 'Web Developer Fast Track'
-export const siteDescription = 'Web Developer Fast Track program website for Fall 2022.'
-export const siteURL = 'sait-wbdv.netlify.app'
-export const siteLink = 'https://sait-wbdv.netlify.app/'
+export const siteDescription = 'Web Developer Fast Track program website for Winter 2023.'
+export const siteURL = 'w23-sait-wbdv.netlify.app'
+export const siteLink = 'https://w23-sait-wbdv.netlify.app/'
 export const siteAuthor = 'Tony Grimes and Ashlyn Knox'
 
 // Controls how many posts are shown per page on the main blog index pages
@@ -30,6 +30,6 @@ export const navItems = [
 	},
 	{
 		title: 'Live Stream',
-		route: 'https://sait-ca.zoom.us/j/89468563134' 
+		route: '' 
 	},
 ]

@@ -2,14 +2,14 @@ export const courses = [
 	{
 		code: 'dsgn-270',
 		title: "Web Design Theory and Social Media Concepts",
-		days: 8,
+		days: 9,
 		type: 'technical',
 		status: 'open'
 	},
 	{
 		code: 'cpnt-201',
 		title: "Web Design Tools and Techniques",
-		days: 7,
+		days: 8,
 		type: 'technical',
 		status: 'open'
 	},
@@ -37,14 +37,14 @@ export const courses = [
 	{
 		code: 'cpnt-265',
 		title: "The Business of the Web",
-		days: 10,
+		days: 11,
 		type: 'technical',
 		status: 'closed'
 	},
 	{
 		code: 'cpnt-264',
 		title: "Career and Consulting Essentials",
-		days: 6,
+		days: 4,
 		type: 'support'
 	},
 	{
