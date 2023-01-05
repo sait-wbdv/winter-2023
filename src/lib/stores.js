@@ -2,11 +2,12 @@ import { writable } from 'svelte/store';
 import { scheduleByWeek } from './schedule';
 import { lessons } from './helpers/importLessons';
 
+let days = {}; // tracker for course iteration counts
+
 let lessonsObj = {};
 lessons.forEach((lesson) => {
   lessonsObj[`${lesson.code}/${parseInt(lesson.day)}`] = lesson
 });
-
 let prevLessonId = '';
 
 export const schedule = writable(scheduleByWeek.map((week) => {
@@ -14,18 +15,34 @@ export const schedule = writable(scheduleByWeek.map((week) => {
     let lessonId = '';
 
     if(day.type === 'lesson') {
-			lessonId = `${day.code}/${day.day}`;
+			let title = 'TBA';
+			let excerpt = null;
+			let status = 'draft';
+			let path = null;
+			let fileName = null;
 
-			// Spice up the base lesson with schedule-specific 	info
-			lessonsObj[lessonId].date = day.date;
-			lessonsObj[lessonId].prev = prevLessonId;
-			lessonsObj[lessonId].next = ''; // populates on next iteration
-			if (prevLessonId) {
-				lessonsObj[prevLessonId].next = lessonId;
+			if (typeof days[day.code] === 'undefined') {
+				days[day.code] = 1;
+				day.day = days[day.code];
+			} else {
+				days[day.code]++;
+				day.day = days[day.code];
+			}
+
+			lessonId = `${day.code}/${parseInt(days[day.code])}`;
+
+			if (lessonsObj[lessonId]) {
+				// Spice up the base lesson with schedule-specific 	info
+				lessonsObj[lessonId].date = day.date;
+				lessonsObj[lessonId].prev = prevLessonId;
+				lessonsObj[lessonId].next = ''; // populates on next iteration
+				if (prevLessonId && lessonsObj[prevLessonId]) {
+					lessonsObj[prevLessonId].next = lessonId;
+				}				
+				({title, excerpt, status, path, fileName } = lessonsObj[lessonId]);
 			}
 			prevLessonId = lessonId;
 
-      const {title, excerpt, status, path, fileName } = lessonsObj[lessonId];
       const codeLabel = day.code.toUpperCase().replace('-', ' ');
       return {...day, title, excerpt, status, codeLabel, path, fileName};
     } else {

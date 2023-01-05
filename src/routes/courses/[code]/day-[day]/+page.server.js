@@ -16,7 +16,7 @@ export const load = async ({ params }) => {
 			day = `${params.day}`;
 		}
 
-		const lesson = lessons.find((item) => item.day === day && item.code === code)
+		const lesson = lessons.find((item) => item.day === params.day && item.code === code)
 		const lessonContent = await import(`../../../../lib/content/courses/${code}/${day}-day-${params.day}.md`);
 		
 		return {

@@ -3,493 +3,431 @@ export const scheduleByWeek = [
 	// Week 1
 	[
 		{
-			date: '2022-09-05',
-			type: 'holiday',
-			label: 'Labour Day'
+			date: '2023-01-09',
+			type: 'lesson',
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-09-06',
+			date: '2023-01-10',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 1
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-09-07',
+			date: '2023-01-11',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 2
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-09-08',
+			date: '2023-01-12',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 3
+			code: 'cpnt-201'
 		},
 		{
-			date: '2022-09-09',
+			date: '2023-01-13',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 4
-		},
+			code: 'cpnt-201'
+		}
 	],
 	// Week 2
 	[
 		{
-			date: '2022-09-12',
+			date: '2023-01-16',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 1
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-13',
+			date: '2023-01-17',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 2
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-14',
+			date: '2023-01-18',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 3
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-15',
+			date: '2023-01-19',
 			type: 'lesson',
-			code: 'cpnt-264',
-			day: 1
+			code: 'cpnt-264'
 		},
 		{
-			date: '2022-09-16',
+			date: '2023-01-20',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 1
-		},
+			code: 'cpnt-260'
+		}
 	],
 	// Week 3
 	[
 		{
-			date: '2022-09-19',
+			date: '2023-01-23',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 2			
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-20',
+			date: '2023-01-24',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 3			
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-09-21',
+			date: '2023-01-25',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 4
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-09-22',
+			date: '2023-01-26',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 5
+			code: 'cpnt-201'
 		},
 		{
-			date: '2022-09-23',
+			date: '2023-01-27',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 5			
+			code: 'cpnt-201'
+
 		}
 	],
 	// Week 4
 	[
 		{
-			date: '2022-09-26',
+			date: '2023-01-30',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 6
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-27',
+			date: '2023-01-31',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 6
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-28',
+			date: '2023-02-01',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 7
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-29',
+			date: '2023-01-02',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 8
+			code: 'cpnt-260'
 		},
 		{
-			date: '2022-09-30',
-			type: 'holiday',
-			label: 'National Day for Truth and Reconciliation'
+			date: '2023-01-03',
+			type: 'lesson',
+			code: 'cpnt-260'
 		}
 	],
 	// Week 5
 	[
 		{
-			date: '2022-10-03',
+			date: '2023-02-06',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 9
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-04',
+			date: '2023-02-07',
 			type: 'lesson',
-			code: 'cpnt-260',
-			day: 10
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-05',
+			date: '2023-02-08',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 4
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-06',
+			date: '2023-02-09',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 5
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-07',
+			date: '2023-02-10',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 7
+			code: 'cpnt-262'
+
 		}
 	],
 	// Week 6
 	[
 		{
-			date: '2022-10-10',
-			type: 'holiday',
-			label: 'Thanksgiving'
+			date: '2023-02-13',
+			type: 'lesson',
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-10-11',
+			date: '2023-02-14',
 			type: 'lesson',
-			code: 'dsgn-270',
-			day: 8
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-10-12',
+			date: '2023-02-15',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 1
+			code: 'cpnt-201'
 		},
 		{
-			date: '2022-10-13',
+			date: '2023-02-16',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 2
+			code: 'cpnt-201'
 		},
 		{
-			date: '2022-10-14',
+			date: '2023-02-17',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 3
+			code: 'cpnt-262'
+
 		}
 	],
 	// Week 7
 	[
 		{
-			date: '2022-10-17',
-			type: 'lesson',
-			code: 'cpnt-262',
-			day: 4
+			date: '2023-02-20',
+			type: 'holiday',
+			label: 'Family Day'
 		},
 		{
-			date: '2022-10-18',
+			date: '2023-02-21',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 5
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-19',
+			date: '2023-02-22',
 			type: 'lesson',
-			code: 'cpnt-264',
-			day: 2
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-20',
+			date: '2023-02-23',
 			type: 'lesson',
-			code: 'cpnt-264',
-			day: 3
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-21',
+			date: '2023-02-24',
 			type: 'lesson',
-			code: 'cpln-240',
-			day: 1
+			code: 'cpnt-264'
+
 		}
 	],
 	// Week 8
 	[
 		{
-			date: '2022-10-24',
+			date: '2023-02-27',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 6
+			code: 'cpln-240'
 		},
 		{
-			date: '2022-10-25',
+			date: '2023-02-28',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 7
+			code: 'cpnt-264'
 		},
 		{
-			date: '2022-10-26',
+			date: '2023-03-01',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 8
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-10-27',
+			date: '2023-03-02',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 9
+			code: 'dsgn-270'
 		},
 		{
-			date: '2022-10-28',
+			date: '2020-03-03',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 10
+			code: 'dsgn-270'
+
 		}
 	],
 	// Week 9
 	[
 		{
-			date: '2022-10-31',
+			date: '2023-03-06',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 11
+			code: 'cpnt-201'
+		},
+		{
+			date: '2023-03-07',
+			type: 'lesson',
+			code: 'cpnt-201'
+		},
+		{
+			date: '2023-03-08',
+			type: 'lesson',
+			code: 'cpnt-262'
+		},
+		{
+			date: '2023-03-09',
+			type: 'lesson',
+			code: 'cpnt-262'
+		},
+		{
+			date: '2023-03-10',
+			type: 'lesson',
+			code: 'cpnt-262'
 
-		},
-		{
-			date: '2022-11-01',
-			type: 'lesson',
-			code: 'cpnt-201',
-			day: 6
-		},
-		{
-			date: '2022-11-02',
-			type: 'lesson',
-			code: 'cpnt-201',
-			day: 7
-		},
-		{
-			date: '2022-11-03',
-			type: 'lesson',
-			code: 'cpnt-200',
-			day: 1
-		},
-		{
-			date: '2022-11-04',
-			type: 'lesson',
-			code: 'cpnt-200',
-			day: 2
 		}
 	],
 	// Week 10
 	[
 		{
-			date: '2022-11-07',
+			date: '2023-03-13',
 			type: 'lesson',
-			code: 'cpnt-200',
-			day: 3
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-11-08',
+			date: '2023-03-14',
 			type: 'lesson',
-			code: 'cpnt-200',
-			day: 4
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-11-09',
+			date: '2023-03-15',
 			type: 'lesson',
-			code: 'cpnt-200',
-			day: 5
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-11-10',
+			date: '2023-03-16',
 			type: 'lesson',
-			code: 'cpnt-200',
-			day: 6
+			code: 'cpnt-264'
 		},
 		{
-			date: '2022-11-11',
-			type: 'holiday',
-			label: 'Remembrance Day'
+			date: '2023-03-17',
+			type: 'lesson',
+			code: 'cpnt-262'
 		}
 	],
 	// Week 11
 	[
 		{
-			date: '2022-11-14',
+			date: '2023-03-20',
 			type: 'lesson',
-			code: 'cpnt-200',
-			day: 7
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-11-15',
+			date: '2023-03-21',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 12
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-11-16',
+			date: '2023-03-22',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 13
+			code: 'cpnt-262'
 		},
 		{
-			date: '2022-11-17',
+			date: '2023-03-23',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 14
+			code: 'cpnt-200'
 		},
 		{
-			date: '2022-11-18',
+			date: '2023-03-24',
 			type: 'lesson',
-			code: 'cpnt-264',
-			day: 4
+			code: 'cpnt-200'
+
 		}
 	],
 	// Week 12
 	[
 		{
-			date: '2022-11-21',
+			date: '2023-03-27',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 15
+			code: 'cpnt-200'
 		},
 		{
-			date: '2022-11-22',
+			date: '2023-03-28',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 16
+			code: 'cpnt-200'
 		},
 		{
-			date: '2022-11-23',
+			date: '2023-03-29',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 17
+			code: 'cpnt-200'
 		},
 		{
-			date: '2022-11-24',
+			date: '2023-03-30',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 18
+			code: 'cpnt-200'
 		},
 		{
-			date: '2022-11-25',
+			date: '2023-03-31',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 19
+			code: 'cpnt-200'
+
 		}
 	],
 	// Week 13
 	[
 		{
-			date: '2022-11-28',
+			date: '2023-04-03',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 20
+			code: 'cpnt-264'
 		},
 		{
-			date: '2022-11-29',
+			date: '2023-04-04',
 			type: 'lesson',
-			code: 'cpnt-262',
-			day: 21
+			code: 'cpnt-264'
 		},
 		{
-			date: '2022-11-30',
+			date: '2023-04-05',
 			type: 'lesson',
-			code: 'cpnt-264',
-			day: 5
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-01',
+			date: '2023-04-06',
 			type: 'lesson',
-			code: 'cpnt-264',
-			day: 6
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-02',
-			type: 'lesson',
-			code: 'cpnt-262',
-			day: 22
+			date: '2023-04-07',
+			type: 'holiday',
+			label: 'Good Friday'
+
 		}
 	],
 	// Week 14
 	[
 		{
-			date: '2022-12-05',
-			type: 'lesson',
-			code: 'cpnt-265',
-			day: 1		
+			date: '2023-04-10',
+			type: 'holiday',
+			label: 'Easter Monday'
 		},
 		{
-			date: '2022-12-06',
+			date: '2023-04-11',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 2
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-07',
+			date: '2023-04-12',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 3
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-08',
+			date: '2023-04-13',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 4
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-09',
+			date: '2023-04-14',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 5
+			code: 'cpnt-265'
+
 		}
 	],
 	// Week 15
 	[
 		{
-			date: '2022-12-12',
+			date: '2023-04-17',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 6
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-13',
+			date: '2023-04-18',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 7
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-14',
+			date: '2023-04-19',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 8
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-15',
+			date: '2023-04-20',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 9
+			code: 'cpnt-265'
 		},
 		{
-			date: '2022-12-16',
+			date: '2023-04-21',
 			type: 'lesson',
-			code: 'cpnt-265',
-			day: 10
+			code: 'cpnt-265'
 		}
 	],
 ]
