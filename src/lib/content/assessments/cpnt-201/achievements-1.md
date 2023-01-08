@@ -8,7 +8,7 @@ points: 10
 
 Achievements will be marked differently than other Assignments in Brightspace:
 
-- **You will be graded for 2 5-point mini-assignments** (Achievements) that will be due on Friday October 14
+- **You will be graded for 2 5-point mini-assignments** (Achievements) that will be due on TODO:
 - In Brightspace, you will receive points for Achievements Round 1 as you submit individual Achievements;
 - You can choose from any of the following Achievements for this Round;
 - You will be graded according to the Requirements of the Achievement you've submitted;
@@ -27,7 +27,7 @@ Practice resolving merge conflicts. These can be from actual instances in projec
 
 To receive marks you must:
 
-1. Pick at least 1 repo where you resolved merge conflicts (starting on october 6th and it cannot be your CPNT-201-A3 repo)
+1. Pick at least 1 repo where you resolved merge conflicts
 2. Resolve 5 merge conflicts following the instructions from class and assignment 3.
 3. In Brightspace submit links to all the merge conflicts commits along with a brief description of the commit.
 4. Submit a link to your repo
