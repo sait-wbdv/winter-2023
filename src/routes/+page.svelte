@@ -6,7 +6,13 @@
 <svelte:head>
 	<title>{siteTitle}</title>
 </svelte:head>
-<h1>Program Schedule</h1>
-<div class="container">
-	<Schedule />
-</div>
+<section class="schedule">
+  <h1>Program Schedule</h1>
+  <Schedule />
+</section>
+<style>
+  section {
+    max-width: 75ch;
+    margin: auto;
+  }
+</style>
