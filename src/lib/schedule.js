@@ -103,12 +103,12 @@ export const scheduleByWeek = [
 			code: 'cpnt-260'
 		},
 		{
-			date: '2023-01-02',
+			date: '2023-02-02',
 			type: 'lesson',
 			code: 'cpnt-260'
 		},
 		{
-			date: '2023-01-03',
+			date: '2023-02-03',
 			type: 'lesson',
 			code: 'cpnt-260'
 		}

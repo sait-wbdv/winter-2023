@@ -5,7 +5,6 @@
 	import Header from '$lib/components/Header.svelte'
 	import Footer from '$lib/components/Footer.svelte'
 	import { currentPage, isMenuOpen } from '$lib/assets/js/store'
-	import { fade } from 'svelte/transition'
 	export let data
 
 	const transitionIn = { delay: 150, duration: 150 }
@@ -40,11 +39,15 @@
 		<main
 			id="main"
 			tabindex="-1"
-			in:fade={transitionIn}
-			out:fade={transitionOut}
 		>
 			<slot />
 		</main>
 	{/key}
 	<Footer />
 </div>
+
+<style>
+	main {
+		max-width: 150ch;
+	}
+</style>
