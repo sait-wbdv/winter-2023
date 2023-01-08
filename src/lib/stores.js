@@ -34,10 +34,10 @@ export const schedule = writable(scheduleByWeek.map((week) => {
 			if (lessonsObj[lessonId]) {
 				// Spice up the base lesson with schedule-specific 	info
 				lessonsObj[lessonId].date = day.date;
-				lessonsObj[lessonId].prev = prevLessonId;
+				lessonsObj[lessonId].prev = prevLessonId.replace('/', '/day-');
 				lessonsObj[lessonId].next = ''; // populates on next iteration
 				if (prevLessonId && lessonsObj[prevLessonId]) {
-					lessonsObj[prevLessonId].next = lessonId;
+					lessonsObj[prevLessonId].next = lessonId.replace('/', '/day-');
 				}				
 				({title, excerpt, status, path, fileName } = lessonsObj[lessonId]);
 			}
