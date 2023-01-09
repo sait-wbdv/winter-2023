@@ -2,7 +2,6 @@
   import { courses } from '$lib/stores'
 </script>
 
-
 <svelte:head>
 	<title>Courses</title>
 </svelte:head>
