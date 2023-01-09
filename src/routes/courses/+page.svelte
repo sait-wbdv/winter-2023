@@ -15,7 +15,6 @@
 		<article class="course">
 			<h2>{course.code.toUpperCase().replace('-', ' ')}</h2>
 			<h3>{course.title}</h3>
-			<p>Days: {course.days}</p>
 		</article>
 	</a>
 	{/if}
