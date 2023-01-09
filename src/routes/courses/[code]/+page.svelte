@@ -5,7 +5,7 @@
 
   const course = $courses.find((item) => item.code === $page.params.code);
 </script>
-<h1>{course.title}</h1>
+<h1>{course.codeLabel} - {course.title}</h1>
 <h2>Lesson Schedule</h2>
 <ul>
   {#each course.days as date, index}

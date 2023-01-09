@@ -11,8 +11,8 @@ export const assessments = await Promise.all(
         
     let status, due;
     
-    const courseDueDates = dueDates.find((course) => code === course.code).dueDates;
-    const lessonDueDate = courseDueDates.find((lesson) => slug === lesson.slug);
+    const courseDueDates = dueDates.find((course) => code === course.code)?.dueDates;
+    const lessonDueDate = courseDueDates?.find((lesson) => slug === lesson.slug);
     status = lessonDueDate?.status;
     due = lessonDueDate?.due;
 
