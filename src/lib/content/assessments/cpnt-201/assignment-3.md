@@ -1,7 +1,7 @@
 ---
-title: Assignment 3 - Git Merge Conflict
+title: Assignment 3 - Git Branches and Pull Request
 type: assignment
-points: 20
+points: 15
 ---
 
 ## Instructions
