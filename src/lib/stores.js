@@ -69,7 +69,8 @@ export const courses = writable([
 	{
 		code: 'dsgn-270',
 		codeLabel: 'DSGN 270',
-		title: "Web Design Theory and Social Media Concepts",
+		title: "Web Design Fundamentals",
+		excerpt: "This course will introduce the best practices in design including web usability/accessibility, visual hierarchy and vector-based design using Figma.",
 		days: courseDays['dsgn-270'],
 		type: 'technical',
 		status: 'open'
@@ -77,7 +78,8 @@ export const courses = writable([
 	{
 		code: 'cpnt-201',
 		codeLabel: 'CPNT 201',
-		title: "Web Design Tools and Techniques",
+		title: "Web Development Tools and Techniques",
+		excerpt: "This course will introduce you to the tools you need to program in industry. Topics include source code control using Git, optimizing your text editor (VS Code) and using third-party software with npm.",
 		days: courseDays['cpnt-201'],
 		type: 'technical',
 		status: 'open'
@@ -86,6 +88,7 @@ export const courses = writable([
 		code: 'cpnt-260',
 		codeLabel: 'CPNT 260',
 		title: "Web Page Construction Fundamentals",
+		excerpt: "This web design course provides the foundation of web site creation using the most recent version of Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS) to develop consistent web pages that are intuitive and maintainable.",
 		days: courseDays['cpnt-260'],
 		type: 'technical',
 		status: 'closed'
@@ -93,7 +96,8 @@ export const courses = writable([
 	{
 		code: 'cpnt-262',
 		codeLabel: 'CPNT 262',
-		title: "Web Client and Server Programmings",
+		title: "Web Client and Server Programming",
+		excerpt: "This course provides an introduction to web application development using Javascript. The first half of the course will cover programming concepts using vanilla Javascript. The second half of the course will introduce you more complex application concepts using SvelteKit.",
 		days: courseDays['cpnt-262'],
 		type: 'technical',
 		status: 'closed'
@@ -101,7 +105,8 @@ export const courses = writable([
 	{
 		code: 'cpnt-200',
 		codeLabel: 'CPNT 200',
-		title: "Content Management Systems",
+		title: "Headless Content Management Systems",
+		excerpt: "This course will introduce modern backend content management systems that will feed your web applications. Topics include SQL, data modelling and authentication.",
 		days: courseDays['cpnt-200'],
 		type: 'technical',
 		status: 'closed'
@@ -109,7 +114,8 @@ export const courses = writable([
 	{
 		code: 'cpnt-265',
 		codeLabel: 'CPNT 265',
-		title: "The Business of the Web",
+		title: "Final Capstone Project",
+		excerpt: "Using the knowledge you've learned in this program, you will create your own web application. Final projects will be presented on the last day of the program.",
 		days: courseDays['cpnt-265'],
 		type: 'technical',
 		status: 'closed'
