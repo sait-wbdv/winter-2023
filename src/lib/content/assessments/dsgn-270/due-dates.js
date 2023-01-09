@@ -6,27 +6,22 @@ export const dsgn270DueDates = [
   },
   {
     slug: 'assignment-2',
-    due: 'Wednesday January 18 @ 11:59PM',
+    due: ' Sunday January 29 @ 11:59PM',
     status: 'published'
   },
   {
     slug: 'assignment-3',
-    due: 'Monday October 3 @ 11:59PM',
+    due: 'Friday February 17 @ 11:59PM',
     status: 'published'
   },
   {
     slug: 'assignment-4',
-    due: 'Monday October 17',
+    due: 'Tuesday March 7 @ 11:59PM',
     status: 'published'
   },
   {
-    slug: 'achievements-1',
-    due: 'Friday January 13 @ 5:00PM',
-    status: 'published'
-  },
-  {
-    slug: 'dailies',
-    due: 'Friday October 21',
+    slug: 'Achievements',
+    due: 'Daily @ 5:00PM',
     status: 'published'
   }
 ];

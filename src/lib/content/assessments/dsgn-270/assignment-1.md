@@ -1,10 +1,8 @@
 ---
 title: Assignment 1 - Moodboard
 type: assignment
-points: 20
+points: 15
 ---
-
-**Due: Friday January 13th @ 11:59pm**
 
 ## Scenario
 

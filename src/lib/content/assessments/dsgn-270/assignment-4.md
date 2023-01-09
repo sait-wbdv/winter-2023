@@ -1,7 +1,7 @@
 ---
 title: Assignment 4 - Website Mockup
 type: assignment
-points: 20
+points: 15
 ---
 
 ## Scenario
