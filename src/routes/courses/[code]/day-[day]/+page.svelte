@@ -24,13 +24,12 @@
   </ul>
 </nav>
 
-
-<h1>{lesson.title}</h1>
-
-
+<p>{lesson.codeLabel} - Day {lesson.day}</p>
 {#if lesson.status === 'draft'}
+<h1>To be Announced</h1>
 <p>This lesson has not been released.</p>
 {:else}
+<h1>{lesson.title}</h1>
 {@html data.lessonContent}
 {/if}
 

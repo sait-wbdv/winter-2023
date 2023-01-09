@@ -19,7 +19,7 @@
     <time>{dayjs(day.date).format('dddd, MMM D')}</time>
     <article class="{day.code} unpublished">
       <p>{day.codeLabel} - Day {day.day}</p>
-      <h3 class="{day.code}">{day.codeLabel} - {day.title}</h3>
+      <h3 class="{day.code}">To be Announced</h3>
     </article>
     {:else}
     <time>{dayjs(day.date).format('dddd, MMM D')}</time>

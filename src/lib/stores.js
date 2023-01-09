@@ -20,6 +20,7 @@ export const schedule = writable(scheduleByWeek.map((week) => {
 			let status = 'draft';
 			let path = null;
 			let fileName = null;
+			let codeLabel = null;
 
 			if (typeof days[day.code] === 'undefined') {
 				days[day.code] = 1;
@@ -39,11 +40,10 @@ export const schedule = writable(scheduleByWeek.map((week) => {
 				if (prevLessonId && lessonsObj[prevLessonId]) {
 					lessonsObj[prevLessonId].next = lessonId.replace('/', '/day-');
 				}				
-				({title, excerpt, status, path, fileName } = lessonsObj[lessonId]);
+				({title, excerpt, status, path, fileName, codeLabel } = lessonsObj[lessonId]);
 			}
 			prevLessonId = lessonId;
 
-      const codeLabel = day.code.toUpperCase().replace('-', ' ');
       return {...day, title, excerpt, status, codeLabel, path, fileName};
     } else {
       return day;
