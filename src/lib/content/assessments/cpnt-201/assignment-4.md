@@ -1,7 +1,7 @@
 ---
 title: Assignment 4 - NPM Tailwind Assignment
 type: assignment
-points: 20
+points: 15
 ---
 
 ## Instructions
