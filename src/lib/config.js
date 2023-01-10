@@ -30,6 +30,6 @@ export const navItems = [
 	},
 	{
 		title: 'Live Stream',
-		route: '' 
+		route: 'https://sait-ca.zoom.us/j/87246342255' 
 	},
 ]
