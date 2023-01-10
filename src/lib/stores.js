@@ -63,8 +63,6 @@ export const schedule = writable(scheduleByWeek.map((week) => {
 })
 );
 
-console.log(courseDays);
-
 export const courses = writable([
 	{
 		code: 'dsgn-270',
