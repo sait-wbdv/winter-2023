@@ -1,5 +1,5 @@
 ---
-title: DSGN 270  Assignment 2 - SVG Logo Design
+title: Assignment 2 - SVG Logo Design
 description: Create a logo using an svg. Optimize it and deploy it to a web page
 type: assignment
 points: 15

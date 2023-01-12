@@ -14,7 +14,7 @@
 <h2>Course Breakdown</h2>
 <ul>
   <li><strong>Part 1 - Vanilla Javascript: 40%</strong></li>
-  <li><strong>Part 2 - VueJS and Nuxt: 60%</strong></li>
+  <li><strong>Part 2 - Svelte and SvelteKit: 60%</strong></li>
 </ul>
 
 {/if}
