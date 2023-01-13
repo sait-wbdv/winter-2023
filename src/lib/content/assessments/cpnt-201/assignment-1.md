@@ -1,5 +1,5 @@
 ---
-title: Assignment 1 - Three Deployed HTML5 Templates
+title: Assignment 1 - Deployed HTML5 Template
 type: assignment
 points: 15
 ---
@@ -29,7 +29,7 @@ In this assignment, you will deploy three _distinct_ static website templates th
 
 This assignment will be marked out of 20 points.
 
-### GitHub Setup: 4 points
+### GitHub Setup: 5 points
 
 - Local name and email address set correctly in your config
 - GitHub Profile updated with:
@@ -38,16 +38,16 @@ This assignment will be marked out of 20 points.
   - Location
   - Optional: website, Twitter, etc
 
-### Distinctiveness: 4 points
+### Distinctiveness: 5 points
 
 The three templates will collectively be scored on their visual distinctiveness according to the criteria listed above. Each template should offer a diverse choice for the client by:
 
 - being visually distinct from the other two templates;
 - representing, collectively, a wide variety of layout elements (cards, sliders, gallery, etc).
 
-### Each Template: 4 points (12 points total)
+### Template: 5
 
-Each individual template will be marked according to the following criteria.
+Template will be marked according to the following criteria.
 
 1. Functionality:
    - Each template should be responsive, and

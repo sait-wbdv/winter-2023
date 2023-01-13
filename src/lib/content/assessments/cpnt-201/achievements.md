@@ -10,3 +10,14 @@ points: 40
 - Each achievement will be announced the day before it's due
 - Details of each achievement can be found in Brightspace and on each day's lesson plan
 - Achievements are to be done during lab time
+
+## Achievements
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
