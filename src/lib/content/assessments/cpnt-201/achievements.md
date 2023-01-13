@@ -13,11 +13,11 @@ points: 40
 
 ## Achievements
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. Follow the White Rabbit
+2. Push 5 Commits to Github
+3. Kanban Pizza Party I
+4. Kanban Pizza Party II
+5. Merge a Pull Request
+6. Merge a Collaborator's Pull Request
+7. Basic NPM Setup
+8. Add Lodash to a project
