@@ -4,7 +4,7 @@ type: assignment
 points: 10
 ---
 
-In this assignment, you will be creating a column of body text with HTML and CSS. The content should be original. While you can use open-source content as inspiration, it should be unique and on-topic.
+In this assignment, you will be creating a column of body text with HTML and CSS. **The content should be original.** While you can use open-source content as inspiration, it should be unique and on-topic.
 
 ## Content Topic
 Your content may cover any topic of your choice and does not have to relate to a real-life scenario. 
@@ -15,14 +15,15 @@ For example, you may write:
 - a how-to article on your favourite hobby;
 - a review of a book/movie/article/hiking trail;
 - an About page for a hypothetical client website;
-- a entry for your coding journal.
+- a entry for your coding journal,
+- etc, etc.
 
 The content should make sense and be of potential value to the (hypothetical) reader.
 
 ---
 
 ## Instructions and Rubric
-1. Write at least 150 words (to a maximum of 300 words) on your topic;
+1. Write at least 200 words on your topic;
 2. Use valid HTML and CSS to make a column of [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content);
 3. Place your content in a validated HTML file named `index.html` (CSS may be embedded in a `style` element in the `head` of `index.html`).
 
@@ -41,8 +42,8 @@ Enhance the visual hierarchy of your content using (at least):
 ### Responsiveness and Accessibility
 Your content should be responsive and accessible to screen readers:
 - [ ] No horizontal scroll bars should be visible at any device screen width;
-- [ ] Line length should not exceed 65 characters on wide screens;
-- [ ] Content should be centred on wide screens;
+- [ ] Line length should not exceed 85 characters on wide screens;
+- [ ] Content should be centred on wide screens (unless it looks great, otherwise);
 - [ ] Content should be at least `1rem` away from the edge of the screen;
 - [ ] Content should be wrapped in a `main` element;
 - [ ] Text should have at least a AA contrast ratio rating for its size.
@@ -55,7 +56,7 @@ Enhance the visual hierarchy and readability of your typography:
 - [ ] The line height of your body text should be larger than the browser default but still be readable;
 
 ### Above and Beyond
-Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
+Show off your coding skills by using ONE (more than one does not guarantee more marks) of the following:
 - A nested list, OR;
 - An image, that is not distorted and does not hurt page usability, OR;
 - An icon font, OR; 
