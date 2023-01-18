@@ -2,7 +2,7 @@
   export let status;
 </script>
 
-<section class='achievement'>
+<section id="achievement" class='achievement'>
   <h2>Today's Achievement</h2>
   <p>Due today at 5pm in Brightspace.</p>
 
