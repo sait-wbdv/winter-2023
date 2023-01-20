@@ -51,7 +51,7 @@ Your content should be responsive and accessible to screen readers:
 - [ ] The image cannot be distorted and should scale to fit the card;
 - [ ] No horizontal scroll bars should be visible at any device screen width;
 - [ ] On mobile, content should be at least `1rem` away from the edge of the screen;
-- [ ] Text should have at least a AA contrast ratio rating for its size.
+- [ ] Text should have at least a [AA contrast ratio rating](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast) for its size.
 
 ### Clickable card
 **User story**: 
