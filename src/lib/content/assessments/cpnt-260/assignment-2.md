@@ -50,7 +50,7 @@ Your content should be responsive and accessible to screen readers:
 - [ ] Line length should not exceed 40 characters on wide screens;
 - [ ] The image cannot be distorted and should scale to fit the card;
 - [ ] No horizontal scroll bars should be visible at any device screen width;
-- [ ] On mobile, content should be at least `0.5rem` away from the edge of the screen;
+- [ ] On mobile, content should be at least `1rem` away from the edge of the screen;
 - [ ] Text should have at least a AA contrast ratio rating for its size.
 
 ### Clickable card
