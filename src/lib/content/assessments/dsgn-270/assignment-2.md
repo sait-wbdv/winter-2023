@@ -51,15 +51,6 @@ This assignment will be marked out of 20 points, which will be given for each of
 - Logos should be responsive
   - All logos should be entirely visible when the page loads without the need to scroll.
 
-### Documentation: 5 points
-
-- README file that includes:
-  - Description of your design concept **important**
-- Journal Entry describing your process/journey completing the assignment
-  - Comments, observations
-  - Problems encountered
-  - Screencaps of progress, inspiration and mood boards
-
 ## General
 
 Points will be deducted for:
@@ -77,7 +68,7 @@ Points will be deducted for:
 
 In order to receive a grade:
 
-1. Submit your assignment as a repo named `dsgn270-a3`, with:
+1. Submit your assignment as a repo named `dsgn270-a2`, with:
    - The text of your assignment saved in a `README.md` file in the root of your project;
    - Your name, course title and assignment title at the top of the page;
 2. Zip your assignment and submit it to Brightspace.
