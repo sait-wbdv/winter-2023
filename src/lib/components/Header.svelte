@@ -19,7 +19,7 @@
 		<img src="/images/sait-logo.png" alt="SAIT Logo">
 		<div>
 			<span class="site-title">{siteTitle}</span><br>
-			<span class="semester">Fall 2022</span>
+			<span class="semester">Winter 2023</span>
 		</div>
 	</a>
 	
