@@ -45,13 +45,11 @@ Once you've completed your pair-code session, each of you has resolved a merge c
 
 ## Marking Rubric
 
-10 points will be given for each of the following criteria, for a total of 20 points for this assignment:
-
-1. Repo with two collaborators
-   - repo is named `cpnt201-a3`;
+1. Repo with all collaborators 5 Points
+   - repo is named `cpnt201-a2`;
    - repo has an owner and with the other partner(s) listed as a collaborator(s);
    - repo contains at least two alternating commits (NOT including the resolved conflict below) from each partner (four commits at minimum; six for a group of three) within the same time period (i.e. during a pair coding session).
-2. Merge Commit:
+2. Merge Commit: 10 Points
    - A link to the specific merge commit is provided with submission.
    - The commit has two parents.
    - The commit has the message "Resolved conflict".
