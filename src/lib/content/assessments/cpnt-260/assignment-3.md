@@ -11,6 +11,7 @@ The goal of this assignment is to create an internal page of a traditional websi
 - Blog post;
 - Contact page;
 - About page;
+- a 404 Page Not found page;
 - etc.
 
 To create this page you will:
@@ -49,10 +50,9 @@ Build a horizontal primary navigation menu that:
 - [ ] justify the links to fit your design.
 
 ### 2. Content and footer
-Build a page of content with a footer:
+Build a page of valid HTML ([W3C HTML Validator](https://validator.w3.org/)) page content and with a footer:
 - Page content:
-    - [ ] Content that matches the theme of your page;
-    - [ ] Valid HTML ([W3C HTML Validator](https://validator.w3.org/)) and CSS ([W3C CSS Validator](https://jigsaw.w3.org/css-validator/));
+    - [ ] Content that matches the theme of your page (you may use content from openly licensed sources, previous assignments or sample code given in);
 - Footer:
     - [ ] Copyright year with `&copy;` HTML entity;
     - [ ] Site owner;
