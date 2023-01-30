@@ -4,7 +4,7 @@
 
 <section id="achievement" class='achievement'>
   <h2>Today's Achievement</h2>
-  <p>Due today at 5pm in Brightspace.</p>
+  <p>Due today at 8pm in Brightspace.</p>
 
   {#if status === 'announced' || status === 'published'}
   <slot />
