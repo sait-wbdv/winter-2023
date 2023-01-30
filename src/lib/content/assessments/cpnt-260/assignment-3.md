@@ -1,76 +1,83 @@
 ---
-title: Assignment 3 - Full-page layout
+title: Assignment 3 - Full-page Layout
 type: assignment
 points: 10
 ---
 
-In this assignment, you will be creating a full-page layout of a 404 page!
+In this assignment, you will be creating a full-page layout of a web page!
 
 ## Content topic
-The goal of this assignment is to notify a hypothetical user that their page was not found.
+The goal of this assignment is to create an internal page of a traditional website, such as a:
+- Blog post;
+- Contact page;
+- About page;
+- etc.
+
+To create this page you will:
 - Choose a site title, owner, concept for your site;
 - Choose a list of four (or more) your primary navigation menu;
     - You do not have to create content for any other pages;
     - Link to `#` or choose an external site of your choice.
+- Populate the main area of the page with (well-formed and accessible) content of your choice;
+- Add a footer with copyright info at the bottom of the page;
 - Make it funny/pretty/useful!
 
 ---
 
 ## Instructions
 1. Create a [`index.html`](https://gist.github.com/acidtone/6871979b4f4b04375edb6312dcdba5b7) page with the following semantic elements:
-    - `<header>` - Site title
-        - But do _not_ put it in a heading;
-    - `<nav>` - See Rubric
-    - `<main>` - Page content in a `h1` (or similar):
-        > "404 page not found"
-    - `<footer>` - See Rubric
+    - `<header>` - Site banner
+    - `<nav>` - Primary navigation
+    - `<main>` - Page content 
+    - `<footer>` - Copyright information
 2. Use [valid HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/);
-    - CSS must be linked externally in an `./css/[style|main|etc].css`;
-3. Design a full page layout of a site's 404 page according to the requirements listed below.
+    - **New**: CSS must be linked externally in an `./css/[style|main|etc].css`;
+3. Design a full page layout of a site's web page according to the requirements listed below.
 
 ---
 
 ## Marking Rubric
 **Each of the following requirements will be worth 2 points** for a total of 10 points.
 
-### 1. Flexbox navigation
+### 1. Horizontal Flexbox navigation
 Build a horizontal primary navigation menu that:
+- [ ] contains at least four navigation links (link `href` may be `#`);
+- [ ] includes a logo and/or site name;
 - [ ] is accessible (see below);
 - [ ] uses colour and the box model to make links obviously and easily clickable;
 - [ ] uses a `<ul>` as a flex container and `<li>` as items;
 - [ ] justify the links to fit your design.
 
-### 2. Sticky footer
-Build a footer sticks to the bottom of a short page:
-- [ ] Page content: 404 page not found
-    - You may use different content;
-    - Content must not scroll in either direction;
+### 2. Content and footer
+Build a page of content with a footer:
+- Page content:
+    - [ ] Content that matches the theme of your page;
+    - [ ] Valid HTML ([W3C HTML Validator](https://validator.w3.org/)) and CSS ([W3C CSS Validator](https://jigsaw.w3.org/css-validator/));
 - Footer:
-    - [ ] Copyright year with `&copy;`
-    - [ ] Site owner
-    - [ ] Sticks to the bottom of a short page
-    - [ ] Scrolls normally of a long page
+    - [ ] Copyright year with `&copy;` HTML entity;
+    - [ ] Site owner;
 
 ### 3. Responsiveness and Accessibility
 Your content should be responsive and accessible to screen readers:
 - [ ] All navigation should be wrapped in a `<nav>` element;
-    - `<nav>` can be nested inside a `<header>`
+    - `<nav>` should be nested inside a `<header>`
 - [ ] Navigation should never overflow horizontally off the screen:
     - `flex-wrap` is a good place to start;
-- [ ] The page has a `<title>`;
-- [ ] The page content is a readable size.
+- [ ] The page has a `<title>` in the `<head>`;
+- [ ] Main page content is wrapped in a `<main>` container;
+- [ ] Footer content is wrapped in a `<footer>` container at the bottom of the page;
+- [ ] The page content is a readable size and not touch the edge of any boundary (such as a background colour change).
 
 **Plus these**:
 - [ ] Line length should not exceed 40 characters on wide screens;
 - [ ] No horizontal scroll bars should be visible at any device screen width;
-- [ ] On mobile, content should be at least `0.5rem` away from the edge of the screen;
+- [ ] On mobile, content should be at least `1rem` away from the edge of the screen;
 - [ ] Text should have at least a AA contrast ratio rating for its size;
 
 ### 4. Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
 - add a social navigation menu, OR;
-- incorporate a hero image (that doesn't scroll) into your page content, OR;
-- use a nested flexbox, OR;
+- incorporate an inline SVG image for your company logo, OR;
 - Google Map in the footer, OR;
 - add your primary navigation to the footer.
     - it shouldn't look like primary navigation.
