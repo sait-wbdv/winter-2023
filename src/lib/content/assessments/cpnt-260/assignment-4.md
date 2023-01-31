@@ -26,7 +26,6 @@ The goal of this assignment is to build a Hero Section that directs the user to 
 
 ## 1. Content
 - [ ] Display and Text fonts should not be default and have proper fallbacks;
-- [ ] "60-30-10" colour scheme (or similar) used for neutral/base (60%), primary(30%) and Call-to-Action (10%) colours;
 - [ ] If HTML images are used, they cannot be distorted and should scale to fit the design;
 - [ ] `font-size` and `line-height` should be larger than browser defaults;
 - [ ] Content should be at least `1rem` away from all boundaries (sides of screen, containers, cards, etc);
@@ -47,13 +46,20 @@ The goal of this assignment is to build a Hero Section that directs the user to 
 - [ ] Line length should not exceed 40 characters on wide screens;
 - [ ] The CTA card should appear self-contained and separate from Hero title (i.e. doesn't need to have a visible boundary);
 - [ ] Only clickable area should be a link (or two) styled to look like a button (i.e. make it look obviously clickable);
-- [ ] There should be a custom colour defined for Call-to-Action link (see "60-30-10" comment above);
+- [ ] There should be a custom colour defined for Call-to-Action link;
 - [ ] Hover effect added to button to confirm to the user that it's clickable;
 
 ## 4. Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
-- Host your images locally in an `images` directory in your project, OR;
-- A project board (conforming to [Achievements Round 2 requirements](https://sait-wbdv-f22.netlify.app/courses/cpnt-260/assessments/achievements-2#project-board)) that you used to manage your work on this assignment (this cannot a board previously submitted as an achievement), OR;
+
+- Host your images locally in an `images` directory in your project;
+
+**OR**
+
+- A GitHub Project board with 5 or or more cards that you used to manage your work on this assignment;
+
+**OR**
+
 - Both of the following CSS properties in your Hero Section:
     - [`linear-gradient`](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) or [`radial-gradient`](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient)
     - [`background-blend-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
