@@ -39,7 +39,7 @@ A gallery of image-based cards such as a product list on an online store, player
 ### 10 Points: Additional pages
 At least two pages of your choice in addition to the Gallery page to make up a three-page website. You must incorporate **at least three** of the following page elements, in total:
 
-- **Contact form** driven by Formspree or similar service;
+- **Contact form** driven by [Formspree](https://formspree.io/) or similar service;
 - **Hero section** and call to action containing at least **two** image elements such as:
     - CSS background image, 
     - HTML image,
