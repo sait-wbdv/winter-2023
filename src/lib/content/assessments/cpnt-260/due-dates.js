@@ -27,6 +27,6 @@ export const cpnt260DueDates = [
   {
     slug: 'final-project',
     due: 'Sunday, February 5th @ 11:59pm',
-    status: 'draft'
+    status: 'published'
   }
 ]
