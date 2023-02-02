@@ -9,7 +9,6 @@ In this assignment, your group will use all the knowledge learned in this course
 All pages and code in this assignment will be graded against the following requirements (see past Assignments for details), in addition to the specific rubric category requirements: 
 - Accessibility
 - Responsiveness
-- Assets hosted locally
 - Code quality and readability
 - Project README with:
     - Course and assignment information
