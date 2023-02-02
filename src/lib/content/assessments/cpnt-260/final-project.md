@@ -3,7 +3,7 @@ title: Final Project - Three-page Website
 type: assignment
 points: 30
 ---
-In this assignment, your group will use all the knowledge learned in this course to deploy a multi-page static website based on a topic of your choice.
+In this assignment, you will use all the knowledge learned in this course to deploy a multi-page static website based on a topic of your choice.
 
 ## Base Requirements
 All pages and code in this assignment will be graded against the following requirements (see past Assignments for details), in addition to the specific rubric category requirements: 
