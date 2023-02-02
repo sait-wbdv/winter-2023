@@ -22,7 +22,7 @@ The following criteria will be worth a **total of 30 points**.
 
 ### 5 Points: Image gallery
 A gallery of image-based cards such as a product list on an online store, players on a sports team, movies playing in a theatre, etc.
-- At least 7 cards
+- At least 9 cards
 - 2-4 per items row on desktop; 1 per row on mobile;
 - Cards entirely clickable like in Assignment 2;
 - Each item card must include an image, title and details/description;
