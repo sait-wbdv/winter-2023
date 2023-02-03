@@ -51,7 +51,7 @@ At least two pages of your choice in addition to the Gallery page to make up a t
 - A **1x3 card block**: one row of three cards on desktop (one column of 3 rows on mobile);
 - **Embedded video** in an `<iframe>` with proper labels/context (i,e, headings and description) and attributions;
 
-**Important**: Duplication of CSS across your pages should be minimized. Separate your CSS into logical files based on which files need them. For example, your CSS files could look like this:
+**Important**: Duplication of CSS across your pages should be minimized. Separate your CSS into logical files based on which pages need them. For example, your CSS directory could look like this:
 - `main.css`
 - `fonts.css`
 - `about.css`
