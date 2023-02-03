@@ -51,6 +51,13 @@ At least two pages of your choice in addition to the Gallery page to make up a t
 - A **1x3 card block**: one row of three cards on desktop (one column of 3 rows on mobile);
 - **Embedded video** in an `<iframe>` with proper labels/context (i,e, headings and description) and attributions;
 
+**Important**: Duplication of CSS across your pages should be minimized. Separate your CSS into logical files based on which files need them. For example, your CSS files could look like this:
+- `main.css`
+- `fonts.css`
+- `about.css`
+- `gallery.css`
+- `home-page.css`
+
 ### 5 points: Global layout elements
 The following persistent layout elements must exist on every page of the project: 
 - Global page banner with logo and site title
@@ -76,3 +83,12 @@ Incorporate **one of the following** techniques that were not covered in class:
 **OR**
 
 - Your instructor is open to suggestions...
+
+---
+
+## Submission Requirements
+- Push this assignment to a GitHub repo named `cpnt260-final-project` and enable GitHub Pages;
+- ZIP all files required for the site to operate and submit to Brightspace;
+- Include the following as a comment in your Brightspace submission:
+  - GH repo
+  - GH Pages site
