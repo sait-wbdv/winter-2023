@@ -36,8 +36,8 @@ You will also create two "Before" numbers and create four "After" numbers using 
 ---
 ## Marking Rubric
 This assignment is worth 5 points for the following:
-- **2 points**: Starter variables;
-- **2 points**: After variables;
+- **1 points**: Starter variables;
+- **3 points**: After variables;
 - **1 point**: Comments and `console.log()` statements.
 
 The [starter repo](https://github.com/sait-wbdv/w23-262-a1-starter) will attempt to output the above variables to `index.html` and will produce syntax errors and/or undefined output until you successfully declare and assign all variables.
