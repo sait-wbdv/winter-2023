@@ -19,13 +19,13 @@ You will also create two "Before" numbers and create four "After" numbers using 
         - `beforeString2`
             - i.e. "Grimes"
     2. Using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), concatenate these two strings into a new, third, string and assign it to a variable named `afterString`;
-        - The value of `afterString` should be a complete sentence. i.e. "Hi, my name is Tony Grimes."
+        - The value of `afterString` **should be a complete sentence**. i.e. "Hi, my name is Tony Grimes."
     3. Repeat this process with numbers: create two numbers of your choice and assign them to the following variables:
         - `beforeNumber1`
             - i.e. 9.3
         - `beforeNumber2`
             - i.e. 5
-    4. Using [arithmetic operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math), create a four new numbers and assign them to variables named:
+    4. Using **four different** [arithmetic operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math), create a four new numbers and assign them to variables named:
         - `afterNumber1`
         - `afterNumber2`
         - `afterNumber3`
