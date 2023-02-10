@@ -49,7 +49,6 @@ All flowchart symbols and arrows should be used correctly:
 - In general: Yes should go left-right and No should go down.
 
 **Sub-process**
-![Start-Stop symbol](../../assets/images/flowchart/sub-routine.png)
 - Indicate an independent process with its own Start and End;
 - In programs, this is often a separate function.
 
