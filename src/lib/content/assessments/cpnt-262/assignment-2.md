@@ -9,7 +9,10 @@ In this assignment, you will build a flowchart describing a technical process of
 ---
 
 ## General Requirements
-1. Your process should be technical in nature and be at least 20 symbols in size;
+1. Your process should be technical in nature and be at least 20 symbols in size. For example:
+    - Buying an item in a shopping cart;
+    - Adding songs to a Spotify playlist;
+    - Pushing a new repo to GitHub Pages.
 3. Your flowchart should incorporate all of the Symbols listed in the Rubric, with the exception of a Sub-process;
 2. The flowchart should be designed in digitally in drawing software such as [Figma](https://www.figma.com/) or [Lucid Chart](https://www.lucidchart.com/pages/)
 
