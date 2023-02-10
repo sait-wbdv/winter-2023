@@ -28,6 +28,7 @@ Your flowchart should:
 
 ## Symbol Usage - 4 points
 All flowchart symbols and arrows should be used correctly:
+
 **Start/End**
 - Shape is a rounded rectangle;
 - Start is required and should always be the same;
