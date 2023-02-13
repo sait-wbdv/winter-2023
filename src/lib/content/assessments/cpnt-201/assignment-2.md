@@ -6,7 +6,7 @@ points: 15
 
 ## Instructions
 
-In groups of 2-3, practice creating and resolving merge conflicts in a codebase. This is a small but very important skill to practice as when you are working with other developers, merge conflicts will occur and you will be expected to be able to resolve them properly.
+In a group, practice creating and resolving merge conflicts in a codebase. This is a small but very important skill to practice as when you are working with other developers, merge conflicts will occur and you will be expected to be able to resolve them properly.
 
 Your instructor will assign the groups. This assignment should be able to be completed by the end of labtime, however it's recommended to practice a few times together to build good habits.
 

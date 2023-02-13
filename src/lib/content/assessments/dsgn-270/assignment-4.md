@@ -8,7 +8,7 @@ points: 15
 
 You have been hired to build a website and need to do a quick mockup of the homepage to provide a proof of concept to your client. The mockup will allow you to get feedback and make design changes prior to getting into any code.
 
-When building mockups, you can save a lot on design and development time by creating a design system, for this assignment, you will also be required to establish a basic design system (colors and fonts etc).
+When building mockups, you can save a lot on design and development time by creating a design system, however this is not necessary. You are free to utilize design systems from libraries, but must alter them to fit your design.
 
 ### Requirements
 
@@ -25,34 +25,32 @@ When building mockups, you can save a lot on design and development time by crea
 
 ## Instructions
 
-1. Create a design system for your mockup (use a separate page in your design file)
+1. (optional) Create a design system for your mockup (use a separate page in your design file)
 
-- Colors
-- Fonts
-- One other field (ie: shadow)
+   - Colors
+   - Fonts
+   - One other field (ie: shadow)
 
 2. Create a mockup that makes use of UI components
 
-- Components should be created in the same page as your design system
-- UI elements that **must** be componentized:
-  - elements that would be used on other web pages of the same site(header, footer, nav)
-  - elements that are repeated on your landing page
+   - Components should be created in the same page as your design system
+   - UI elements that **must** be componentized:
+     - elements that would be used on other web pages of the same site(header, footer, nav)
+     - elements that are repeated on your landing page
+     - **anything that would appear in about the same form on future pages**
 
 3. Create a low res mobile wireframe of your mockup
 
-- Demonstrate how the design would resize onto a mobile device
-- This is a minimal design, placeholder text for long form text and shapes for images, but use the correct titles to make it easy to follow
+   - Demonstrate how the design would resize onto a mobile device
+   - This is a minimal design, placeholder text for long form text and shapes for images, but use the correct titles to make it easy to follow
 
-4. Export your files:
-
-- Pngs or pdfs for your design files (desktop and mobile)
-- Make sure the file naming conventions are appropriate for sending to a client (for the mockups) or using in a project (for the stylesheets)
+4. Export your files and submit links
 
 ---
 
 ## Marking Criteria
 
-This assignment will be marked out of 20 points, which will be given for each of the following:
+This assignment will be marked out of 15 points, which will be given for each of the following:
 
 ### Mockup Design: 5 points
 
@@ -60,7 +58,7 @@ This assignment will be marked out of 20 points, which will be given for each of
 - Effective visual hierarchy
 - Good use of contrast and spacing
 - 5 sections of content (header, footer, nav, and two others)
-- Uses 1920 or 1280 px artboard
+- Uses 1920 or 1280 px frame
 
 ### Mockup Usability: 5pts
 
@@ -68,14 +66,6 @@ This assignment will be marked out of 20 points, which will be given for each of
 - UI elements are consistent
 - At least 1 call to action
 - UI elements reflect good design convention (or challenge convention effectively and without sacrificing usability)
-
-### Design System and Components: 5 points
-
-- All colors and fonts are **applied** using the design sytem
-- Design system and components are in a separate page in the same workspace
-- Components are applied correctly (so that if you change the primary component, the applied component will reflect those changes)
-- Exported stylesheet is usable
-- Reusable elements have been converted into components
 
 ### Mobile Wireframe: 5 points
 
