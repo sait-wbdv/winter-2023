@@ -83,7 +83,6 @@ In order to receive a grade:
 
 1. Zip all your exported files into a single zip folder named `dsgn270-a4`, with:
    - Exported pdfs or pngs of your design's artboards saved in a folder called `mockups/`
-   - Exported design system files inside `styles/`
    - A `README.md` file with:
    - The title of this assignment
    - Your name
