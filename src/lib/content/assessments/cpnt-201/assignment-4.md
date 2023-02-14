@@ -1,75 +1,65 @@
 ---
-title: Assignment 4 - NPM Tailwind Assignment
+title: Assignment 4 - Git Branches and Pull Request
 type: assignment
 points: 15
 ---
 
 ## Instructions
 
-Use tailwindcss to style a web page. You can use the code from a previous assignment or write new code, either is acceptable. Practice using this utility class framework to either recreate the styles that you made in vanilla css or try building content from scratch.
+In a small team you will set up a new repository work together to merge code from feature branches into your main branch
 
-**If you use code from a previous assignment, it must be copied into a new repo for this assignment**
+Content wise this is an open assignment, it's the approach to merging, commenting, and working together that is top priority. However you will be expected to use a conventional web site file structure.
 
-For this assignment you **cannot** add tailwind via a cdn, you must set up a tailwind.config.js file.
+### 1. Repo Setup and PR Guidelines
 
-### Resources
+- In your README.md add:
+  - Team members (with links to github accounts)
+  - Team Guidelines for merging Pull Requests (ie: # of reviewers required, commit message rules)
+- Team members should all be added with maintainer access
+- A heading under which each team member can link to their respective PR
 
-- [Tailwind Documentation](https://tailwindcss.com/)
-- [Tailwind Utility First Fundamentals](https://tailwindcss.com/docs/utility-first)
-- [Tailwind Setup Guide](https://tailwindcss.com/docs/installation)
+### 2. Tasks
 
----
+For simplicity sake, here are some tasks that can be used for PRs (these are not required but recommended tasks to break up into branches)
+_Note that some of these must happen before others_
 
-## Rubric
+- Project Setup: directories with starter files (either manually with vanilla html/css/js or using svelte)
+- Readme outline (writing out the Readme's layout, headings, and spaces for everyone to put their info into)
+- Configure npm packages (add tailwind or other plugins and set them up)
+- Add some page content
 
-Review the following categories on how this assignment will be graded.
+### 3. Code Reviews
 
-### Tailwind Configuration (5pts)
+- Every team member needs to make a review of a PR
+  - This involved going through the commits and noting good things or issues in the code
+- ***
 
-- `tailwind.config.js` file added to project
-- at least the following present in your tailwind config.
-  - colors
-  - fonts
-  - screen size breakpoints
-  - spacing
-- `assets/css/main.css` contains tailwind imports
+## Marking Rubric **15pts Total**
 
-### Layout Styling (5pts)
+### Repo Configuration **5pts**
 
-- Use of flexbox and/or grid effectively
-- Breakpoints are used on containing elements
-- Design is responsive and mobile first
-- margin, padding, width, and height are all used correctly to enhance your design
+- README file:
+  - visual hierarchy
+  - all contributors info noted correctly
+  - PR guidelines
+  - Links to each other's PRs
 
-### Content Styling (5pts)
+### Pull Requests **5pts**
 
-- Use of breakpoints on fonts
-- foreground and background images are responsive
-- Use of tailwind default colors and/or your own custom colors
-- hover and active states are set up in a navigation bar and/or on buttons
+- Each PR should have at least 1 commit (but commit groupings should be relevant)
+- Commit message quality
+- Description quality in PR
+- Fix at least 1 issue noted from a reviewer **Particular commit must be highlighted in it's message**
 
-### General Requirements (5pts)
+### Code Reviews **5pts**
 
-#### Setup
-
-- Properly configured `package.json`
-- `node_modules/` added to `.gitignore`
-- add a tailwind build command to the `scripts`
-- Project is in a github repo named `cpnt201-a5`
-
-#### Documentation
-
-- Add a `README.md` file to the root of your project
-  - Readme contains:
-    - your name
-    - course and assignment number
-    - link to deployed github page
-    - link to github repo
-    - attributions to assets
+- Identify an issue by commit **use links**
+  - screencaps, line numbers and files, suggestions are all good ways to approach this
+- Note something done well in the PR
 
 ---
 
 ## Submission Instructions
 
-- Submit the zipped folder to brightspace
-- Submit your live page and repo link in the text area of your submission.
+- Zip the repo **excluding the node_modules** and submit the zip file
+- Add a link to your github repo

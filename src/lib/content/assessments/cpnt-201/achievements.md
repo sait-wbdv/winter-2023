@@ -17,7 +17,6 @@ points: 40
 2. [Push 5 Commits to Github](https://gist.github.com/lilyx13/125a9456207025f5c26040a03b9be3d3)
 3. [Kanban Pizza Party I](https://gist.github.com/lilyx13/87b993df6d5127bb91d9d946991a36f6)
 4. [Kanban Pizza Party II](https://gist.github.com/lilyx13/87b993df6d5127bb91d9d946991a36f6)
-5. Merge a Pull Request
-6. Merge a Collaborator's Pull Request
-7. Basic NPM Setup
-8. Add Lodash to a project
+5. [Basic NPM Setup](https://gist.github.com/lilyx13/ad5c81308d1becc356057910bb1a3554)
+6. [Setup Tailwind](https://gist.github.com/lilyx13/2ed0c859ce72a24a59f2e1c54c0778d4)
+7. Merge a Pull Request
