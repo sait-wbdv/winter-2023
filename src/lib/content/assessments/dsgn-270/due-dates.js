@@ -17,7 +17,7 @@ export const dsgn270DueDates = [
   {
     slug: 'assignment-4',
     due: 'Tuesday February 21 @ 11:59PM',
-    status: 'draft'
+    status: 'published'
   },
   {
     slug: 'achievements',
