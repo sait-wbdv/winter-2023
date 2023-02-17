@@ -28,7 +28,7 @@ Using conditional statements, produce at least 7 different meal recommendations 
 **Example**: output a different meal for everyday of the week.
 
 ### 1 point: Incorporate both form options
-Using logical operators (`&&`, `||`, etc), produce at least three recommendations that are based a combination of two form options.
+Using logical operators (`&&`, `||`, etc), produce at least three **additional** recommendations (10 total including the above seven) that are based a combination of two form options.
 
 **Example**: "Wings" are recommended for dinner on Wednesdays.
 
