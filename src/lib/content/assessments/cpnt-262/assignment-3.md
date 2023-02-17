@@ -9,7 +9,7 @@ In this assignment, you will use conditional statements (`if`, `else if`, `else`
 ---
 
 ## Instructions
-1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) the [starter repo](https://github.com/sait-wbdv/w23-262-a3-starter) for this assignment into your workspace;
+1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) the [starter repo](https://github.com/sait-wbdv/w23-262-a3-starter) ([live demo](https://sait-wbdv.github.io/w23-262-a3-starter/)) for this assignment into your workspace;
 2. Using conditional statements in `js/app.js` (**after Line 29**):
     - assign a meal recommendation to the `answer` variable;
     - ensure no combination of form options outputs an `undefined` meal recommendation to the page;
