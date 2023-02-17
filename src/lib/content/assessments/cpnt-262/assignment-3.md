@@ -41,6 +41,7 @@ If the user does not select _both_ a day of the week and meal of the day, produc
 
 **Points will be deducted for**:
 - Not using `else if` and `else` statements;
+- Using the `==` comparison operator instead of `===`;
 - Editing code in `index.html` or `main.css`,
 - Editing `app.js` below the "Do not edit this code" comment,
 - Syntax errors, 
