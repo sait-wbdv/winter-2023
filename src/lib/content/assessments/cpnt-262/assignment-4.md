@@ -37,7 +37,7 @@ Additionally, the function must log the function return value to the console.
     - set the `<title>` and page's `<h1>` to "Assignment 4: Pure Function"
     - add the external javascript file `js/app.js`.
 2. In `app.js`, create a pure function that:
-    1. Accepts one or more arguments as its only input;
+    1. Accepts one or more arguments as its only input(s);
     2. Performs some operation using the input arguments;
     3. Returns a result using a `return` statement;
 3. Invoke your function at least three times with different arguments to demonstrate its functionality and log each result to the console.
@@ -79,7 +79,8 @@ One point will be given for creating a function that:
 
 **Points will be deducted for**:
 - functions that use outside variables that are not passed as arguments,
-- perform [side effects](https://codesweetly.com/side-effect);
+- functions that perform [side effects](https://codesweetly.com/side-effect),
+- functions that are too similar to examples provided in class,
 - Syntax errors, 
 - Logic errors,
 - Not following the guidelines in [Javascript Basics](https://sait-wbdv.github.io/slides/w23/cpnt-262/js-introduction.html), starting at [Slide 9](https://sait-wbdv.github.io/slides/w23/cpnt-262/js-introduction.html#/9).
