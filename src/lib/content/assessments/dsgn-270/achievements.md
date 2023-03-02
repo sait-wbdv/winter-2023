@@ -20,4 +20,4 @@ points: 40
 5. [Wireframe in Figma](https://gist.github.com/lilyx13/de4ecf8724c6ee314a2ba84cd7b93f6a)
 6. [Card Layout](https://gist.github.com/lilyx13/e6057397b45764d7a7aa16ee04d1028b)
 7. [Applied Design System](https://gist.github.com/lilyx13/56141e4b7891f784dd5d819f32db9319)
-8. Prototyping in Figma
+8. [Prototyping in Figma](https://gist.github.com/lilyx13/e92facc0adf02eda65398e1b331de865)
