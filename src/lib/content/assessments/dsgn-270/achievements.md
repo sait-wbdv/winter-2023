@@ -19,5 +19,5 @@ points: 40
 4. [SVG's in HTML](https://gist.github.com/lilyx13/34d7839b1070e619d5d67661e2643489)
 5. [Wireframe in Figma](https://gist.github.com/lilyx13/de4ecf8724c6ee314a2ba84cd7b93f6a)
 6. [Card Layout](https://gist.github.com/lilyx13/e6057397b45764d7a7aa16ee04d1028b)
-7. Basic Design System
-8. Prototype a Button
+7. [Applied Design System](https://gist.github.com/lilyx13/56141e4b7891f784dd5d819f32db9319)
+8. Prototyping in Figma
