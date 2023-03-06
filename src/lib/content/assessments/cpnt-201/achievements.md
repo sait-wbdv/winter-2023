@@ -19,4 +19,5 @@ points: 40
 4. [Kanban Pizza Party II](https://gist.github.com/lilyx13/87b993df6d5127bb91d9d946991a36f6)
 5. [Basic NPM Setup](https://gist.github.com/lilyx13/ad5c81308d1becc356057910bb1a3554)
 6. [Setup Tailwind](https://gist.github.com/lilyx13/2ed0c859ce72a24a59f2e1c54c0778d4)
-7. Merge a Pull Request
+7. [Set up a Global Gitignore](https://gist.github.com/lilyx13/d3be09bce08b2eae2a43a7058ce7ba2e)
+8. [Merge a Pull Request](https://gist.github.com/lilyx13/178d16cda841f74d60deb226626083c9)
