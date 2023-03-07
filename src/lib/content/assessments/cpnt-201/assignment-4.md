@@ -46,7 +46,7 @@ _Note that some of these must happen before others_
 
 ### Pull Requests **5pts**
 
-- Each PR should have at least 1 commit (but commit groupings should be relevant)
+- Each PR should have at least 5 commit (but commit groupings should be relevant)
 - Commit message quality
 - Description quality in PR
 - Fix at least 1 issue noted from a reviewer **Particular commit must be highlighted in it's message**
