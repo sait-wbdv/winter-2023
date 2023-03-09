@@ -55,7 +55,7 @@ Once the answers have been entered (i.e. the loop completes):
 For an extra point, complete ONE or more of the following to enhance your project:
 - Use a loop other than `for`;
 - Use `break` to stop the loop when a certain answer is given;
-- Use an additional array method of your choice other than `.join()`;
+- Use an additional array method of your choice other than `array.join()` and `array.push()`;
 - Produce a grammatically correct response by adding an "and" before the last item in your comma-separated list.
 
 ---
