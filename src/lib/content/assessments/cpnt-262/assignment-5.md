@@ -56,7 +56,8 @@ For an extra point, complete ONE or more of the following to enhance your projec
 - Use a loop other than `for`;
 - Use `break` to stop the loop when a certain answer is given;
 - Use an additional array method of your choice other than `array.join()` and `array.push()`;
-- Produce a grammatically correct response by adding an "and" before the last item in your comma-separated list.
+- Produce a grammatically correct response by adding an "and" before the last item in your comma-separated list;
+- Complete the assignment as a SvelteKit App.
 
 ---
 
