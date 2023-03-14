@@ -9,7 +9,7 @@ In this assignment, you will deploy a responsive SvelteKit website application t
 2. uses a single root layout with `<Header>`, `<Footer>` and `<Nav>` components;
 3. passes props to components.
 
-The website topic can be based on a topic of your choice.
+The website can be based on a topic of your choice.
 
 ---
 ## Marking Rubric
