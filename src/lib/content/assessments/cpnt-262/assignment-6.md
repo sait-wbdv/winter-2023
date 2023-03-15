@@ -7,7 +7,7 @@ points: 10
 In this assignment, you will deploy a responsive SvelteKit website application that:
 1. has three routes (pages) with a component;
 2. uses a single root layout with `<Header>`, `<Footer>` and `<Nav>` components;
-3. passes props to components.
+3. hosts images locally in `/static/images`.
 
 The website can be based on a topic of your choice.
 
@@ -15,18 +15,7 @@ The website can be based on a topic of your choice.
 ## Marking Rubric
 The following will be **worth a total of 10 points**:
 
-### Routes - 2 points each
-Each route should:
-- set a page title using `<svelte:head>`;
-- contain all page-level CSS specific to the route.
-
-Your site should incorporate:
-- an installed third-party package such as a date, chart or utility library (include details in your README);
-- common page elements such as hero section, card gallery, contact form, etc.
-
-The website should high enough production value that you would show it to a client and each page should support the topic of the website.
-
-### 4 points: Global layout
+### 3 points: Global layout
 Each route should use a single root `+layout.svelte` page that:
 - includes a `<slot></slot>` to display page content.
 - imports CSS that sets fonts, colors and other global styles;
@@ -34,10 +23,26 @@ Each route should use a single root `+layout.svelte` page that:
     - if the navigation is inside the header, it should be a nested component.
 - highlights the current page in the global navigation.
 
+### 3 points - Gallery route
+Your site should incorporate an image gallery that it:
+- sets a page title using `<svelte:head>`;
+- contains all page-level CSS specific to the route;
+- locally hosts images in a `/static/images` directory;
+- links to images using absolute links and proper `alt` attributes.
+
+### 4 points - Additional routes (2 points each)
+Two additional routes (pages) should be defined so that they:
+- set page titles using `<svelte:head>`;
+- contain all page-level CSS specific to the route.
+
+Your routes should each incorporate common page elements such as hero section, card gallery, contact form, etc depending on the nature of the page.
+
+The website should high enough production value that you would show it to a client and each page should support the topic of the website.
+
 ---
 
 **Points will be deducted for**:
-- violations of accessibility and usability;
+- violations of accessibility, usability and SvelteKit best practices;
 - pages that are incomplete or of low fidelity; 
 - projects that aren't deployed (3 point deduction);
 - syntax errors, 
