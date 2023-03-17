@@ -31,7 +31,7 @@ export const cpnt262DueDates = [
   },
   {
     slug: 'assignment-6',
-    due: 'Friday, March 17th @ 11:59pm',
+    due: 'Monday, March 20th @ 11:59pm',
     status: 'published'
   },
 ]
