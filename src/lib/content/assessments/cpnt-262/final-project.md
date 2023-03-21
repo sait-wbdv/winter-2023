@@ -4,47 +4,10 @@ type: assignment
 points: 25
 ---
 
-In this assignment, you will create a SvelteKit route that displays a single, clickable card on the page which:
-1. imports an object containing card data from an external file;
-2. imports a `<Card>` component from an external file;
-3. displays the card data by declaring `<Card>` props.
-
-The card can contain information based on a topic of your choice.
+In this assignment, you will create a SvelteKit project that:
 
 ---
 ## Marking Rubric
-Each of the following will be **worth 2 points for a total of 10 points**:
-
-### Card route
-Create a route in a SvelteKit project that contains a valid `+page.svelte` file which:
-- is displayed with header navigation and a footer using a root `+layout.svelte` page;
-- imports card data from an external file (see below);
-- displays the imported card information using an imported `<Card />` component (see below). 
-
-### Card data
-Create a `/src/lib/data.js` file that exports (using the `export` keyword) an object that contains information for your card, including:
-- title;
-- description;
-- image `src` information needed to link to an image file in `/static/images`;
-- external website url to link to.
-
-### Card component
-Create a `/src/lib/components/Card.svelte` file that accepts  the above card data as a prop and displays: 
-- the title a heading;
-- the description inside a paragraph or figcaption;
-- a locally hosted image with a proper `alt` attribute.
-
-The entire card should be clickable and link to the external website url provided.
-
-### Prop declaration
-In `+page.svelte`, display the card by passing the imported card data to the `<Card />` component as a prop so that:
-- no `undefined` fields are displayed on the card;
-- if card data is `undefined`, the card does not display.
-
-### Multiple Cards
-2 points are available if you display multiple cards on the page by:
-- importing an array of objects in `/src/lib/data.js` instead of one object;
-- displaying each card using an `{#each}` loop.
 
 ---
 
@@ -59,7 +22,7 @@ In `+page.svelte`, display the card by passing the imported card data to the `<C
 ---
 
 ## Submission Instructions
-- Push this assignment to a GitHub repo named `cpnt262-a7` and deploy to Vercel or similar platform;
+- Push this assignment to a GitHub repo named `cpnt262-final-project` and deploy to Vercel or similar platform;
 - ZIP all files required for the site to operate and submit to Brightspace;
 - Include the following as a comment in your Brightspace submission:
   - GH repo
