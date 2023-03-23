@@ -56,7 +56,7 @@ Include page features that you've already created in past assignments:
     - etc
 
 ### 5. Third-party library
-Create a proof-of-concept example on your site using a third-party library not covered in class.
+Create a proof-of-concept example on your site using _ONE_ third-party library not covered in class such as:
 - A date library such as [DayJS](https://day.js.org/).
 - A charting library such as [`svelte-chartjs`](https://www.npmjs.com/package/svelte-chartjs).
 - A [UI library](https://studentsxstudents.com/5-best-svelte-ui-libraries-for-your-next-project-3632ca34daa8), such as:
