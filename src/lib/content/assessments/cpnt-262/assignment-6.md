@@ -52,7 +52,7 @@ The website should high enough production value that you would show it to a clie
 ---
 
 ## Submission Instructions
-- Push this assignment to a GitHub repo named `cpnt262-a6` and enable GitHub Pages;
+- Push this assignment to a GitHub repo named `cpnt262-a6` and deploy to Vercel or similar platform;
 - ZIP all files required for the site to operate and submit to Brightspace;
 - Include the following as a comment in your Brightspace submission:
   - GH repo
