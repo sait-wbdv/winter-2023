@@ -32,10 +32,11 @@ Additionally, the gallery page should:
 - display its cards using an imported `Card.svelte` component with defined props.
 
 ### 3. Dynamic gallery item route
-Using route parameters, create a dynamic route that will display the details of each gallery item above. Each page should
+Using route parameters, create a dynamic route that will display the details of each gallery item above. Each page should:
 - include more details than the summary cards on the gallery pages;
 - be driven by the same imported data array as the gallery page;
-- a large version of the thumbnail shown on the gallery page (also hosted in `/static`);
+- include a large version of the thumbnail shown on the gallery page (also hosted in `/static`);
+- not show `undefined` values and show an "Item not found" message if invalid parameters are encountered.
 
 Additionally, each item page should contain:
 - a custom page title based on the imported data using `<svelte:head>`;
