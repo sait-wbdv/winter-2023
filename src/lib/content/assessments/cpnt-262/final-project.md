@@ -60,11 +60,10 @@ Create a proof-of-concept example on your site using _ONE_ third-party library n
 - A date library such as [DayJS](https://day.js.org/).
 - A charting library such as [`svelte-chartjs`](https://www.npmjs.com/package/svelte-chartjs).
 - A [UI library](https://studentsxstudents.com/5-best-svelte-ui-libraries-for-your-next-project-3632ca34daa8), such as:
+    - [SmelteJS](https://smeltejs.com/) (Svelte and TailwindCSS)
     - [Svelte Material UI](https://sveltematerialui.com/) (svelte and Google's Material UI)
     - [SvelteStrap](https://sveltestrap.js.org/?path=/story/components--get-started) (Svelte and Bootstrap)
     - [SvelteFlat UI](https://svelteui.js.org/#/) (Svelte and Flat Design)
-    - [Svelte Particles](https://particles.matteobruni.it)
-    - [SmelteJS](https://smeltejs.com/) (Svelte and TailwindCSS)
 - Write your content in markdown with [`mdsvex`](https://mdsvex.com/) (this is the library that powers the SAIT WBDV website).
 
 
