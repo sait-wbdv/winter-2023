@@ -66,6 +66,7 @@ Create a proof-of-concept example on your site using _ONE_ third-party library n
     - [SvelteFlat UI](https://svelteui.js.org/#/) (Svelte and Flat Design)
 - Write your content in markdown with [`mdsvex`](https://mdsvex.com/) (this is the library that powers the SAIT WBDV website).
 
+You can find more in [Curated list of awesome Svelte resources](https://project-awesome.org/TheComputerM/awesome-svelte) but your mileage may vary.
 
 ---
 
