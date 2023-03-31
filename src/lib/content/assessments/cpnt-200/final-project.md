@@ -25,7 +25,8 @@ These are recommendations, change as needed to fit your requirements:
 5. Use one (or another strategy to clean you data). As you run into Supabase errors, make your changes in Sheet or Excel to fix your issues with, either (or more):
     - Global search and replace;
     - manual value editing;
-    - removing rows (last resort).
+    - remove problematic columns;
+    - remove problematic rows.
 6. When each team member has cleaned their data, join it back into one dataset and do a final import into Supabase;
     - each one-to-many relationship will require an extra table;
     - each many-to-many relationship will require two extra tables.
