@@ -10,32 +10,10 @@ In this group assignment, you will work with your classmates to create a databas
 - Group mark: 25 points
 - Peer evaluation: 10 points
 
-## Instructions
-### Database
-These are recommendations, change as needed to fit your requirements:
-1. Search for a large CSV dataset that fits your group's preferences;
-    - The dataset should have enough rows to require all/most group members to contribute to data cleaning;
-2. Download the CSV and load into Google Sheets or Excel to clean your data;
-3. Using Global search and replace:
-    - "null" &rarr; empty cell;
-4. Divide your data among your team members to do the fine cleaning;
-    - Import your data into Supabase;
-    - Set your number columns to either `Float4` or `Int8` data type
-    - Set your `true`/`false` or `0`/`1` columns to `Bool`
-5. Use one (or another strategy to clean you data). As you run into Supabase errors, make your changes in Sheet or Excel to fix your issues with, either (or more):
-    - Global search and replace;
-    - manual value editing;
-    - remove problematic columns;
-    - remove problematic rows.
-6. When each team member has cleaned their data, join it back into one dataset and do a final import into Supabase;
-    - each one-to-many relationship will require an extra table;
-    - each many-to-many relationship will require two extra tables.
-7. With a clean, deployed Supabase project, begin building your frontend. 
-
 ---
 
 ## Marking Rubric
-### 10 points: Database
+### 10 points: Database import
 Create a database of information based on openly licensed data decided upon by your group. The data will need to be cleaned up and imported to Supabase.
 
 **Requirements:**
@@ -43,17 +21,39 @@ Create a database of information based on openly licensed data decided upon by y
 - Foreign keys should end in `_id`;
 - Table and column names should be lowercase with under scores;
 - Column data types should reflect the data contained in the columns (for example, a column of numbers shouldn't have a data-type of `Text`);
-- Columns with repeating and exhaustive values (i.e. a limited number of values) should be moved to another table in a one-to-many relationship;
+
+### 5 points: Database Relations
+One-to-many relationships built for
+- Country
+- Industry
+
+**Requirements**
+- `country` table with `country_id` column in `billionaire` table
+    - `country_id` has foreign key to `country:id`
+- `industry` table with `industry_id` column in `billionaire` table
+    - `industry_id` has foreign key to `industry:id`
 
 ### 5 points: List entry and item endpoints
-- Build a List Entry route that displays a "gallery" of summarized data;
-- Build a Dynamic item endpoint that lists individual item details
+- Build a billionaire list entry route that displays a list of ranked billionaires;
+- Build a dynamic item endpoint that lists details of individual billionaires.
 
-### 5 points: ???
+Requirements
+- Same requirements as [Achievement 7](/courses/cpnt-200/day-7#achievement)
 
-### 5 points: ???
+### 5 points: Chartjs Implementation
+Use [ChartJS](https://www.chartjs.org/) (or similar) to chart billionaires by ONE of the following:
+- country
+- industry
+- age
+- etc
 
-### Peer Evaluation: 10 points
+**Requirements**
+Examples would be similar to:
+- [Bar Chart](https://www.chartjs.org/docs/latest/charts/bar.html)
+- [Line Chart](https://www.chartjs.org/docs/latest/charts/line.html)
+- [Doughnut Chart](https://www.chartjs.org/docs/latest/charts/doughnut.html)
+
+### 10 points: Peer Evaluation
 At the end of the Final Project, all team members must evaluate their teammates on a scale of 1-10. Each member's mark for this portion will be the average score given to them by their teammates.
 - You must submit an evaluation to receive marks for this component;
 - Evaluations will be submitted confidentially in Brightspace;
