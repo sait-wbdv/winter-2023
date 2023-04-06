@@ -43,7 +43,7 @@ Earn points for working on your Final Project!
     - Implement a sample app using one of the following frameworks:
         - ReactJS/NextJS
         - VueJS/NuxtJS
-        - Svelte: components not covered in class
+        - Svelte: features not covered in class
         - Wordpress
 - **Tool time: _5 points_**
     Demonstration of skillz in a specialized software tool _not_, covered in class:
